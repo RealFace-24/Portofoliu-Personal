@@ -7,12 +7,11 @@
     "start": "parcel",
     "build": "parcel build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "gh-pages-build": "parcel build --public-url ."
+    "deploy": "gh-pages -d dist"
+    
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
-  "license": "ISC",
+  "author": "Budoi Mihai",
   "homepage": "https://RealFace-24.github.io/Portofoliu-Personal",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
